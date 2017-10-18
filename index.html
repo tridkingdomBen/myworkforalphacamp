@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'/>
+    <link type="text/css" rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id='nav'>
+      <div class='container'>
+        <ul class='menu'>
+          <li><a href='#about'>Who am I</a></li>
+          <li><a href='#my-work'>My work</a></li>
+          <li><a href='#my-interest'>My Interest</a></li>
+          <li><a href='#contact-me'>Contact me</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id='content'>
+      <div class='container'>
+        <div id='about'>
+          <div id='my-avatar'>
+            <img src='1.jpg' alt='my avatar'>
+          </div>
+          <div id='my-info'>
+            <h1>I am Ben</h1>
+            <h3>College student major in Lanscape Design</h3>
+            <hr>
+            <table>
+              <tr>
+                <th>Birth</th>
+                <td>1995</td>
+              </tr>
+              <tr>
+                <th>工作經驗</th>
+                <td>一年，新創兒童教育，行銷設計人員</td>
+              </tr>
+              <tr>
+                <th>學習經歷</th>
+                <td>
+                  台灣大學結業，2018<br/>
+                  大航海計畫結業，2018
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id='social-app'>
+            <h3>我的社群網站連結</h3>
+            <div class='social-image'>
+              <a href='https://www.facebook.com/profile.php?id=100001384757272' target="_blank"><img src='fb.png'></a>
+            </div>
+            <div class='social-image'>
+              <img src='ig.png'>
+            </div>
+            <div class='social-image'>
+              <img src='in.png'>
+            </div>
+          </div>
+        </div>
+        <div id='my-work'>
+          <h1>作品集</h1>
+          <div id='my-work-gallery'>
+            <div class='item'>
+              <h3 class='topic'>信義415公園</h3>
+              <img src="work1.bmp" alt='信義415公園'>
+              <div class='item-info'>
+                <p>zermatt is the place i want to go this winter</p>
+              </div>
+            </div>
+            <div class='item'>
+              <h3 class='topic'>萬華艋舺公園</h3>
+              <img src="work2.bmp" alt='萬華艋舺公園'>
+              <div class='item-info'>
+                <p>Wintertur is the place i will live</p>
+              </div>
+            </div>
+            <div class='item'>
+              <h3 class='topic'>宜蘭巨石工廠</h3>
+              <img src="work3.jpg" alt='宜蘭巨石工廠'>
+              <div class='item-info'>
+                <p>i will transfer at duibai for three days </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id='my-interest'>
+          <h1>平常的興趣</h1>
+          <ul>
+            <li><a href='#trip-tag'>自助旅行規劃</a></li>
+            <li><a href='#read-tag'>讀書心得撰寫</a></li>
+          </ul>
+          <div id='interest-content'>
+            <div class='tag'>
+              <div id='trip'>
+                <h2 id='trip-tag'>一、自助旅行規劃</h2>
+                <hr class='bar'>
+                <table>
+                  <tr>
+                    <th>杜拜三日行程<img src='trip1.jpg'>
+                      <div class='trip-info'>
+                        <p>1/14-16玩三天</p>
+                      </div>
+                    </th>
+                    <td>Day1<br/>哈里發塔、清真寺、黃金市集<br/><br/>Day2<br/> Mall of Emirates、帆船酒店、Madinat Jumeirah</td>
+                  </tr>
+                  <tr>
+                    <th>瑞士10日行程<img src='trip2.jpg'>
+                      <div class='trip-info'>
+                        <p>1/17-26玩十天</p>
+                      </div>
+                    </th>
+                    <td>Day1<br/>洛桑市區、日內瓦湖、Vevey<br/><br/>Day2<br/> Zermatt、Chur、Bern</td>
+                  </tr>
+                  <tr>
+                    <th>澳洲十日行程<img src='trip3.jpg'>
+                      <div class='trip-info'>
+                        <p>9/1-9/9玩10天</p>
+                      </div>
+                    </th>
+                    <td>Day1<br/>布里斯本市區<br/><br/>Day2<br/> 黃金海岸、華納兄弟樂園</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class='tag'>
+              <div id='read'>
+                <h2 id='read-tag'>二、讀書心得撰寫</h2>
+                <hr class='bar'>
+                <table>
+                  <tr>
+                    <th>我不吃早餐<img src='read1.jpg'>
+                      <div class='read-info'>
+                        <p>告訴人們吃早餐的各種謬誤</p>
+                      </div>
+                    </th>
+                    <td>告訴人們吃早餐的各種謬誤</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id='contact-me'>
+          <h1>Contact me</h1>
+
+          <form action='' class='contact-form'>
+            <div class='form-row'>
+              <label for='name'>姓名</label>
+              <input id='name' type='text'>
+            </div>
+            <div class='form-row'>
+              <label for='email'>Eamil</label>
+              <input id='email' type='email'>
+            </div>
+            <div class='form-row'>
+              <label for='message'>訊息</label>
+              <textarea id='message'></textarea>
+            </div>
+            <div class='form-row'>
+              <button type='resest'>重設</button>
+              <button type='submit'>提交</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
